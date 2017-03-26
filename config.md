@@ -4,10 +4,10 @@ configuration steps for mezzanine
 Development setup
 -----------------
 
-create virtualenv, python 2.7 if we want to use mezzanine-agenda
+create virtualenv, python3 possibly
 
-    virtualenv venv/mezza2
-    source venv/mezza2/bin/activate
+    python3 -m venv ~/venv/mezza3
+    source venv/mezza3/bin/activate
 
     pip install mezzanine psycopg2
     mezzanine-project pgbrighton
