@@ -7,7 +7,7 @@ Development setup
 create virtualenv, python3 possibly
 
     python3 -m venv ~/venv/mezza3
-    source venv/mezza3/bin/activate
+    source ~/venv/mezza3/bin/activate
 
     pip install mezzanine psycopg2
     mezzanine-project pgbrighton
